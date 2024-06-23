@@ -32,6 +32,7 @@ public class Frame {
 
         // * Calling constructor of Frame1 class:
         Frame1 frame1 = new Frame1();
+        new Frame1();
         
     }
 }
