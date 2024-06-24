@@ -4,10 +4,11 @@ import javax.swing.*;
 
 public class Labels {
     public static void main(String[] args) {
-        ImageIcon image = new ImageIcon("frame.jpg");
+        //Label:
         JLabel label = new JLabel();
         label.setText("Bro, do you even code?"); 
         JLabel label2 = new JLabel("Hey bro!!!");
+        ImageIcon image = new ImageIcon("frame.jpg");
         label.setIcon(image);
         
 
@@ -17,11 +18,11 @@ public class Labels {
 
 
 
-
+        //Frame:
         JFrame frame = new JFrame(); 
         frame.setTitle("Labels");
         frame.setVisible(true); 
-        frame.setSize(400,400);
+        frame.setSize(500,500);
         frame.getContentPane().setBackground(new Color (0x9E9EE8));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(label);

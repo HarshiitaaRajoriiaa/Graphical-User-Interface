@@ -1,0 +1,19 @@
+  **- FRAME:**
+  * .setTitle();
+  * .setImageIcon(name.getImage());
+  * .setSize();
+  * .setVisible(boolean);
+  * .setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  * .setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+  * .setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+  * .setResizable(boolean);
+  * .getContentPane().setBackground(Color.BLACK);
+  * .getContentPane().setBackground( new Color(0x123456)));
+  * .getContentPane().setBackground(new Color(255,255,255)));
+  * .add(); // LABELS
+
+
+  ** LABELS: **
+  * .setText();
+  * .setIcon();
+  
