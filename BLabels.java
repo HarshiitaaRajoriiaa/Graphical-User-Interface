@@ -2,7 +2,7 @@
 import java.awt.Color;
 import javax.swing.*;
 
-public class Labels {
+public class BLabels {
     public static void main(String[] args) {
         //Label:
         JLabel label = new JLabel();

@@ -3,15 +3,15 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 // * Frame: The Frame is the container that contain title bar and border and can have menu bars. 
 // * It can have other components like button, text field, scrollbar etc. Frame is most widely used container while developing an AWT application.
-public class Frame {
+public class AFrame {
     public static void main(String[] args) {
         // * USING OBJECT INSTANCE FOR MAKING FRAMES:
         JFrame frame = new JFrame(); //instance of this class
         frame.setVisible(true); //setVisible() to make frame visible
         frame.setSize(400,400); //setSize() to set size
         frame.setTitle("my first frame");
-        // frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); //do nothing even when user is clicking the red cross button
-        // frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); //hide the frame , but frame will work in the background
+        frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); //do nothing even when user is clicking the red cross button
+        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); //hide the frame , but frame will work in the background
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit the frame on close
         frame.setResizable(false); //prevent from being resize manually with cursor
 
